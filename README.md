@@ -15,3 +15,11 @@ Here are my paper lectionaries:</br>
 |Related Works|Neural networks in a broad-coverage Penn Treebank parser (Henderson, 2004), Applied Incremental Sigmoid Belief Networks to constituency parsing  (Titov and Henderson, 2007), Transition-based dependency parsers using a Temporal Restricted Boltzman Machine (Garg and Henderson, 2011), Precursive neural networks for transition-based dependency parsing (Stenetorp, 2013), |
 |Method|• LEFT-ARC(l): adds an arc s1 → s2 with label l and removes s2 from the stack. Pre-condition: \|s\| ≥ 2.<br/>• RIGHT-ARC(l): adds an arc s2 → s1 with label l and removes s1 from the stack. Pre-condition: \|s\| ≥ 2.<br/>• SHIFT: moves b1 from the buffer to the stack. Precondition: \|b\| ≥ 1.|
 |Result|The parser is superior in terms of both accuracy and speed. Comparing with the baselines of arc-eager and arc-standard parsers, the parser achieves around 2% improvement in UAS and LAS on all datasets, while running about 20 times faster.|
+
+### 3. Sentence-Incremental Neural Coreference Resolution
+#### Source: https://aclanthology.org/2022.emnlp-main.28.pdf
+||Contents|
+|---|---|
+|Related Works|ncremental transformer architectures (Katharopoulos et al., 2020; Kasai et al., 2021), and adapting these architectures to NLU tasks (though not coreference resolution) (Madureira and Schlangen, 2020; Kahardipraja et al., 2021). In this work, we focus on the simpler sentence-incremental setting, believing it to be sufficient for downstream tasks.|
+|Method||
+|Result||
