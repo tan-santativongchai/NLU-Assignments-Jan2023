@@ -23,3 +23,11 @@ Here are my paper lectionaries:</br>
 |Related Works|ncremental transformer architectures (Katharopoulos et al., 2020; Kasai et al., 2021), and adapting these architectures to NLU tasks (though not coreference resolution) (Madureira and Schlangen, 2020; Kahardipraja et al., 2021). In this work, we focus on the simpler sentence-incremental setting, believing it to be sufficient for downstream tasks.|
 |Method|Shift-Reduce Framework (Push, Advance, Pop, Peek), Neural Implementation (Mention Detector, Mention Clustering Model)|
 |Result|Within partly incremental systems, the ICoref model performs best, below SpanBERT by 0.4 F1. Part-Inc model performs comparably to longdoc only trailing ICoref by 0.7 F1 points. The performance difference is much larger here: 7 F1 compared to 2 F1 in OntoNotes. The gap between the Sent-Inc and Part-Inc is also much smaller: only 2.5 F1 points compared to 6.3 F1 on OntoNotes.|
+
+### 4. Interpreting Language Models with Contrastive Explanations
+#### Source: https://aclanthology.org/2022.emnlp-main.14.pdf
+||Contents|
+|---|---|
+|Related Works|Counterfactual explanations for text classification models by erasing certain features from the input and projecting the input representation to the “contrastive space” (Jacovi et al., 2021); (Wallace et al., 2019) attempt to explain language modeling predictions|
+|Method|They used GPT-2 (Radford et al., 2019) and GPT-Neo (Black et al., 2021) to extract explanations.|
+|Result|overall, contrastive explanations have a higher alignment with linguistic paradigms than their non-contrastive counterparts for both GPT-2 and GPT-Neo across the different metrics.|
